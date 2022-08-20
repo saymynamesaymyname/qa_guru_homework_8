@@ -1,0 +1,10 @@
+{
+  "name": "Ryzhik",
+  "isSterilized": true,
+  "age": 3,
+  "colors" : ["white", "red"],
+  "vaccination": {
+      "date": "25.11.2021",
+      "vaccineName": "Best vaccine"
+  }
+}
