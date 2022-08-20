@@ -76,7 +76,6 @@ public class ParseFilesTests {
         URL zipUrl = classLoader.getResource(archiveName);
         File zipFile = new File(zipUrl.toURI());
         ZipFile zip = new ZipFile(zipFile);
-        Enumeration<? extends ZipEntry> e = zip.entries();
         return zip.getInputStream(zip.getEntry(fileName));
     }
 
